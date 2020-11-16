@@ -1,0 +1,22 @@
+form {
+    padding: 2%;
+    width: 40%;
+}
+.pagination{
+    margin-top: 1%;
+}
+.error{
+    color:red;
+}
+.link a{
+    color:white;
+}
+.link a:hovered{
+    color:white;
+}
+.link a:visited{
+    color:white;
+}
+.container {
+    width: 20%;
+}
