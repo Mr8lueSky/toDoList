@@ -3,7 +3,7 @@
 $dbname = 'users';
 
 try {
-    $dbh = new PDO('mysql:host=mrbluesky.zzz.com.ua;dbname=mrbluesky', 'mrbluesky', 'homapO44');
+    $dbh = new PDO('mysql:host=<host>;dbname=<dbname>', '<username>', '<password>');
 } catch(Exception $e) {
     echo $e;
     exit(1);
