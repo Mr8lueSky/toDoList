@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-    include_once "templates/navbar.php";
+    include_once "components/navbar.php";
     include_once "models/UsersList.php";
     
     ob_start();
